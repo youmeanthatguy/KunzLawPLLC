@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#navbar {
+  background-color: #000000;
+  padding-right: 5px;
+  z-index: 2;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.nav-links-header {
+  font-family: serif;
+  list-style: none;
+  display: flex;
+  flex-direction: row
+}
+
+.nav-item-header a {
+  display: inline-block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.nav-item-header:hover {
+  background-color: #ffffff;
+}
+
+.nav-item-header:hover a {
+  color: #000000;
+}
+
+.first-right-side-link {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.right-side-link {
+  padding-right: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.social-media {
+  width: 32px;
+  height: 32px;
+}
+
+.social-media-instagram {
+  width: 40px;
+  height: 32px;
+  margin-right: 5px;
+}
+
+.social-media img {
+  width: 100%;
+  height: auto;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky+.content {
+  padding-top: 60px;
+}
+
+.paragraph {
+  font-family: serif;
+  font-size: 25px;
+  width: 75%;
+  padding: 50px;
+}
+
+#text-intro {
+  position: absolute;
+  z-index: 1;
+  top: 125px;
+  left: 200px;
+  color: #ffffff;
+  font-size: 50px;
+}
+
+.parallax-1 {
+  background-image: url("images/downtown-raleigh-1546979.jpg");
+  height: 450px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-2 {
+  background-image: url("images/law-series-4-1467436.jpg");
+  height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-3 {
+  background-image: url("images/cape-hatteras-lighthouse-1235284.jpg");
+  height: 450px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.paragraph-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 50px;
+}
+
+.paragraph-2A {
+  font-family: serif;
+  font-size: 25px;
+}
+  
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 500px;
+  width: 600px;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 500px;
+  width: 600px;
+}
+
+.button-link:hover {
+  display: inline-block;
+  padding: 15px;
+  border: 3px solid #000000;
+  border-radius: 15px;
+  background-color: #e4e4e4;
+  color: #000000;
+  text-decoration: none;
+  font-size: 35px;
+}
+
+.button-link {
+  display: inline-block;
+  padding: 15px;
+  border: 3px solid #000000;
+  border-radius: 15px;
+  background-color: #3b3b3b;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 35px;
+}
+
+.charles-profile-photo-container {
+  float: left;
+  width: 258px;
+  height: 333px;
+  display: flex;
+  flex-direction: row;
+  margin-right: 20px;
+}
+
+.charles-profile-photo {
+  width: 100%;
+  height: auto;
+}
+
+.paragraph-3 {
+  font-family: serif;
+  font-size: 25px;
+  width: 75%;
+  padding: 50px;
+}
+
+footer {
+  background-color: #e4e4e4;
+  padding-left: 30px;
+  padding-right: 10px;
+}
+
+.nav-links-footer {
+  font-family: serif;
+  list-style: none;
+  display: flex;
+  flex-direction: row
+}
+
+.nav-item-footer p {
+  font-family: serif;
+  font-size: 15px;
+  display: inline-block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #6e6e6e;
+}
+
+.nav-item-footer a {
+  font-family: serif;
+  font-size: 15px;
+  display: inline-block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #6e6e6e;
+}
+
+.nav-item-footer a:link {
+  font-family: serif;
+  font-size: 13px;
+  display: inline-block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #6e6e6e;
+}
