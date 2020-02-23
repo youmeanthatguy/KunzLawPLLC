@@ -20,6 +20,14 @@
   flex-direction: row
 }
 
+.nav-item-this-page a {
+  display: inline-block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #BA1518;
+  background-color: #ffffff;
+}
+
 .nav-item-header a {
   display: inline-block;
   padding: 10px 15px;
@@ -32,7 +40,7 @@
 }
 
 .nav-item-header:hover a {
-  color: #000000;
+  color: #BA1518;
 }
 
 .first-right-side-link {
@@ -125,7 +133,7 @@
 
 .paragraph-2A {
   font-family: serif;
-  font-size: 25px;
+  font-size: 20px;
 }
   
 .mapouter {
@@ -148,7 +156,7 @@
   border: 3px solid #000000;
   border-radius: 15px;
   background-color: #e4e4e4;
-  color: #000000;
+  color: #BA1518;
   text-decoration: none;
   font-size: 35px;
 }
@@ -164,25 +172,40 @@
   font-size: 35px;
 }
 
-.charles-profile-photo-container {
+#charles-profile-photo-container {
   float: left;
-  width: 258px;
+  width: 308px;
   height: 333px;
-  display: flex;
-  flex-direction: row;
-  margin-right: 20px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  overflow: hidden;
 }
 
-.charles-profile-photo {
+#charles-profile-photo {
   width: 100%;
   height: auto;
 }
 
 .paragraph-3 {
   font-family: serif;
-  font-size: 25px;
+  font-size: 20px;
   width: 75%;
   padding: 50px;
+}
+
+.lists {
+  width: 75%;
+  padding: 15px;
+}
+
+.list-header {
+  color: #BA1518;
+  font-size: 35px;
+}
+
+.list {
+  list-style: none;
 }
 
 footer {
