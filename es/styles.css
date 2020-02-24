@@ -97,6 +97,24 @@
   font-size: 50px;
 }
 
+#text-intro-services {
+  position: absolute;
+  z-index: 1;
+  top: 165px;
+  left: 100px;
+  color: #000000;
+  font-size: 50px;
+}
+
+#text-criminal-services {
+  position: absolute;
+  z-index: 1;
+  top: 785px;
+  left: 200px;
+  color: #000000;
+  font-size: 50px;
+}
+
 .parallax-1 {
   background-image: url("images/downtown-raleigh-1546979.jpg");
   height: 450px;
@@ -124,6 +142,51 @@
   background-size: cover;
 }
 
+.parallax-4 {
+  background-image: url("images/smokies-3-1229120.jpg");
+  height: 450px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-5 {
+  background-image: url("images/alcatraz-inside-3-1494395.jpg");
+  height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-6 {
+  background-image: url("images/five-oh-in-5-0-1186489.jpg");
+  height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-7 {
+  background-image: url("images/lover-father-1532136.jpg");
+  height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-8 {
+  background-image: url("images/washington-dc-3-1505203.jpg");
+  height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .paragraph-2 {
   display: flex;
   flex-direction: row;
@@ -135,7 +198,7 @@
   font-family: serif;
   font-size: 20px;
 }
-  
+
 .mapouter {
   position: relative;
   text-align: right;

@@ -187,6 +187,15 @@
   background-size: cover;
 }
 
+.parallax-9 {
+  background-image: url("images/gavel-1238036.jpg");
+  height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .paragraph-2 {
   display: flex;
   flex-direction: row;
