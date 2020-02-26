@@ -196,6 +196,15 @@
   background-size: cover;
 }
 
+.parallax-10 {
+  background-image: url("images/charlotte-downtown-3-1216170.jpg");
+  height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .paragraph-2 {
   display: flex;
   flex-direction: row;
