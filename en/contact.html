@@ -34,20 +34,25 @@
           <label for="lname">Phone Number (Required)</label><br>
           <input type="text" id="pnumber" name="phonenumber" placeholder=" "><br>
   
-          <label for="lname">Email Address (Required)</label><br>
+          <label for="lname">Email Address (Optional)</label><br>
           <input type="text" id="emaddress" name="emailaddress" placeholder=" "><br>
 
-          <label for="subject">How can we help you?</label><br>
-          <select id="subject" name="subject">
+          <label for="category">Type of Assistance Needed</label><br>
+          <select id="category" name="category">
             <option value="cDefense">Criminal Defense</option>
             <option value="traffic">Traffic</option>
             <option value="famLaw">Family Law</option>
             <option value="immigration">Immigration</option>
-          </select>
-      
-          <!--label for="subject">Subject</label-->
-          <textarea id="story" name="story" placeholder=" " style="height:200px"></textarea><br>
-      
+          </select><br>
+
+          <label for="subject">Subject</label><br>
+          <input type="text" id="subject" name="subject" placeholder=" "><br>
+
+          <textarea id="story" name="story" placeholder="How can we help you?" style="height:200px"></textarea><br>
+          
+          <h5>Please do not send sensitive information via this submission form. 
+            Included comments are not secure nor subject to attorney-client privilege.</h5><br>
+
           <input type="submit" value="Submit">
       
         </form>
