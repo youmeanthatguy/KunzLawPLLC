@@ -1,0 +1,47 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 03/04/2018 10:25
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.flaticon-001-open-book:before { content: "\f100"; }
+.flaticon-002-magnifying-glass:before { content: "\f101"; }
+.flaticon-003-legal-paper:before { content: "\f102"; }
+.flaticon-004-law:before { content: "\f103"; }
+.flaticon-005-judge:before { content: "\f104"; }
+.flaticon-006-jail:before { content: "\f105"; }
+.flaticon-007-handcuffs:before { content: "\f106"; }
+.flaticon-008-gun:before { content: "\f107"; }
+.flaticon-009-files:before { content: "\f108"; }
+.flaticon-010-courthouse:before { content: "\f109"; }
+.flaticon-011-case:before { content: "\f10a"; }
+.flaticon-012-book:before { content: "\f10b"; }
+.flaticon-013-jury:before { content: "\f10c"; }
+.flaticon-014-balance:before { content: "\f10d"; }
+.flaticon-015-badge:before { content: "\f10e"; }
+.flaticon-016-auction:before { content: "\f10f"; }
