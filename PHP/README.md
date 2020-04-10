@@ -7,3 +7,5 @@ There is currently no responsive design since the site is being designed and red
 the entire project is finished, the CSS file will be updated for a tablet and then a mobile device.
 
 Some of the code is a touch sloppy, but it is a learning project.
+
+There has been a delay in updating the current code because after discussing it with the client, we thought it made sense to see if we could build him a web server that he could host out of his office. Most of the research on that project is taking place offline.
